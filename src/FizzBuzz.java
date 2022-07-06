@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class FizzBuzz {
+public class FizzBuzz {
+
+    public int output(int number) {
+
+    }
 }
