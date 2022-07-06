@@ -8,9 +8,7 @@ class FizzBuzzTest {
     @Test
     void fizzBuzzGivenOne() {
         String expected = "1";
-        FizzBuzz actual = new FizzBuzz().output(1);
+        String actual = new FizzBuzz().output(1);
         assertEquals(expected, actual);
     }
-
-
 }

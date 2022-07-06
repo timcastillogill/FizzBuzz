@@ -1,6 +1,6 @@
 public class FizzBuzz {
 
-    public int output(int number) {
-
+    public String output(int number) {
+        return "1";
     }
 }
