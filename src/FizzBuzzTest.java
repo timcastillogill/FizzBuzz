@@ -25,4 +25,11 @@ class FizzBuzzTest {
         String actual = new FizzBuzz().output(4);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void fizzBuzzGivenSix() {
+        String expected = "6";
+        String actual = new FizzBuzz().output(6);
+        assertEquals(expected, actual);
+    }
 }
